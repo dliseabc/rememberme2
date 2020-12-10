@@ -11,3 +11,17 @@ The goal of the project is to understand spatial perspective. Once you visualize
 <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Orion_constellation_with_star_labels.jpg" alt="Orion" style="width: 400px;"/>
 
 
+## 1. Set-Up
+The following set-up is new and specific to the project. It is very similar to the way you have imported Matplotlib in previous lessons.
+
++ Add `%matplotlib notebook` in the cell below. This is a new statement that you may not have seen before. It will allow you to be able to rotate your visualization in this jupyter notebook.
+
++ We will be using a subset of Matplotlib: `matplotlib.pyplot`. Import the subset as you have been importing it in previous lessons: `from matplotlib import pyplot as plt`
+
+
++ In order to see our 3D visualization, we also need to add this new line after we import Matplotlib:
+`from mpl_toolkits.mplot3d import Axes3D`
+
+%matplotlib notebook
+from matplotlib import pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
